@@ -22,5 +22,8 @@ public class FizzbuzzTest {
     }
     @Test
     public void should_get_Exception_when_no_del_by_5_or_3() throws Exception {
+        expectedEx.expect(Exception.class);
+        expectedEx.expectMessage("can not less than 1");
+        Fizzbuzz.printFizzBuzzNum(0);
     }
 }
