@@ -6,6 +6,9 @@ package test1;
  */
 public class Fizzbuzz {
     public static String printFizzBuzzNum(int count) {
+        if (count % 3 == 0) {
+            return "fizz";
+        }
         return String.valueOf(count);
     }
 }
