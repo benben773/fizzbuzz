@@ -9,5 +9,7 @@ public class FizzBuzz1Test {
         FizzBuzz1 fizzBuzz1 = new FizzBuzz1();
         assertEquals(fizzBuzz1.valueOf(1),"1");
         assertEquals(fizzBuzz1.valueOf(3),"Fizz");
+        assertEquals(fizzBuzz1.valueOf(5),"Buzz");
+        assertEquals(fizzBuzz1.valueOf(15),"FizzBuzz");
     }
 }
