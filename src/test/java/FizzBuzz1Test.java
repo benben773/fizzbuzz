@@ -18,5 +18,6 @@ public class FizzBuzz1Test {
     public void fizzBuzzNewQueryTest() {
         FizzBuzz1 fizzBuzz1 = new FizzBuzz1();
         assertEquals("Fizz",fizzBuzz1.valueOf(13));
+        assertEquals("Buzz",fizzBuzz1.valueOf(51));
     }
 }
