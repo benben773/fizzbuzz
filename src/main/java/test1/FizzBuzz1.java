@@ -5,7 +5,7 @@ public class FizzBuzz1 {
         if (canDiv(count, 5) && canDiv(count, 3)) {
             return "FizzBuzz";
         }
-        if (canDiv(count, 5)) {
+        if (canDiv(count, 5) || String.valueOf(count).contains("5")) {
             return "Buzz";
         }
         if (canDiv(count, 3) || String.valueOf(count).contains("3")) {
